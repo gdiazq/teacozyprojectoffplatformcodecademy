@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: seashell;
+    font-family: Helvetica;
+    font-size: 22px;
+    opacity: 0.9;
+}
+
+.div-header {
+    border-bottom: 1px solid seashell;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.false-breadcrumb li {
+    display: inline-block;
+}
+
+.false-breadcrumb a {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    margin: 10px 14.5px;
+}
+
+#tea-cozy {
+    height: 50px;
+    margin: 10px 14.5px;
+}
+
+.our-mission {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-mission-2{
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    transform: translate(0,-400px);
+}
+
+.our-mission-2 > h2 {
+    margin-top: 10px;
+}
+
+.our-mission-2 > h4 {
+    margin: 15px;
+}
+
+#background-img {
+    width: 1200px;
+    height: 700px;
+}
+
+.tea-section {
+    text-align: center;
+}
+
+.tea-section > h2 {
+    margin-top: 0;
+}
+
+.tea-section > h4 {
+    margin: 20px;
+}
+
+.tea-month {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.tea-image {
+    height: 200px;
+    width: 300px;
+}
+
+.location-portland {
+    min-height: 500px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.location-h2 {
+    transform: translate(0, 100px);
+    margin-top: 50px;
+    margin-bottom: 25px;
+    text-align: center;
+    width: 100%;
+}
+
+.div-location {
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+    margin: 15px 40px;
+    transform: translate(0,-700px);
+}
+
+.location-li {
+    list-style-type: none;
+    font-family: Helvetica;
+    font-size: 22px;
+    opacity: 0.9;
+    padding: 20px;
+}
+
+.contact {
+    width: 100%;
+    transform: translate(0, -200px);
+}
+
+.contact > h2 {
+    padding: 30px;
+}
+
+.contact > h5 {
+    padding: 30px;
+}
+
+.contact > p {
+    padding: 30px
+}
+
+footer {
+    padding: 20px;
+}
